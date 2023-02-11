@@ -1,0 +1,67 @@
+body{
+   background: linear-gradient(to right, rgb(255, 255, 255), rgb(0, 0, 0));
+
+}
+#intro{
+   margin-top: 2.5rem;
+}
+#title{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 2.5rem;
+   font-size: 3rem;
+}
+
+
+#continents-btns{
+   display:flex;
+   justify-content: center;
+   
+}
+
+.continent-btn{
+   border-radius: 5rem;
+   padding:0.5rem 2rem;
+   margin:0 2rem 0 ;
+   color:rgba(223, 204, 164, 0.993);
+   font-weight: 900;
+   font-size: 2rem;
+   text-shadow: 
+    1px 0 0 rgb(252, 252, 252),
+    2px 0 0 rgb(215, 215, 214),
+    3px 0 0 rgb(181, 181, 181),
+    4px 0 0 rgb(68, 69, 68),
+    5px 0 0 rgb(47, 47, 48),
+    6px 0 0 rgb(45, 45, 45),
+    7px 0 0 rgb(0, 0, 0);
+   background: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 255, 255));
+}
+.continent-btn:hover{
+   color: rgb(251, 251, 251);
+   text-shadow: none;
+   background: rgb(7, 7, 6);
+}
+.continent-btn:active{
+   color: black;
+   text-shadow: none;
+   background: rgb(241, 211, 175);
+}
+
+.country-btn{
+   border-radius: 1rem;
+   color:grey;
+   font-weight: 900;
+   margin:0.3rem;
+   padding:0.2rem;
+}
+#chart{
+   display: flex;
+   justify-content: center;
+   
+}
+#mychart{
+   
+   margin:2rem 0;
+   color: antiquewhite;
+   background: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 255, 255));
+}
